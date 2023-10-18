@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid rgb(29, 24, 157);
+  height: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  /* flex-flow: wrap row-reverse; */
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(65, 17, 11);
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #box-1 {
+  order: 5;
+  flex-grow: 1;
+} */
+#box-1 {
+  /* order: 5;
+  flex-grow: 1; */
+  /* flex-basis: 25%; */
+  /* flex-shrink: 3; */
+  align-self: flex-start;
+}
+#box-2 {
+  align-self: flex-end;
+}
+#box-3 {
+  align-self: flex-start;
+}
+#box-4 {
+  align-self: flex-end;
+}
+#box-5 {
+  align-self: flex-start;
+}
+#box-6 {
+  align-self: flex-end;
+}
+#box-7 {
+  align-self: flex-start;
+}
+#box-8 {
+  align-self: flex-end;
+}
+#box-9 {
+  align-self: flex-start;
+}
+
+/* #box-9 {
+  order: 1;
+  flex-grow: 2;
+} */
+
+/*#box-3 {
+  order: 3;
+}
+#box-4 {
+  order: 2;
+} */

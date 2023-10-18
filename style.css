@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Iso&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  /* border: 3px solid rgb(0, 0, 0); */
+  background-color: rgb(255, 255, 255);
+  height: 781px;
+  /* display: flex; */
+  display: grid;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: 200px 200px 200px 200px;
+  /* grid-template-rows: 150px 150px;
+  grid-auto-rows: 150px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(6, 36, 62);
+  font-family: "poppins", cursive;
+  font-weight: bold;
+  font-size: medium;
+  height: 100%;
+  /* width: 150px; */
+  /* border: 3px solid rgb(255, 255, 255); */
+  background-color: rgb(54, 43, 112);
+}
+
+#box-1 {
+  grid-column: span 4;
+}
+#box-2 {
+  grid-row: span 3;
+}
+#box-3 {
+  grid-area: 2/2/5/4;
+}
+#box-4 {
+  grid-row: span 3;
+}
+#box-5 {
+  grid-column: span 4;
+}
