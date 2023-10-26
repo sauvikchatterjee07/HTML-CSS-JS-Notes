@@ -7,7 +7,7 @@
 }
 
 .container {
-  border: 2px solid rgb(29, 24, 157);
+  border: 10px solid rgb(29, 24, 157);
   height: 780px;
   display: flex;
   flex-wrap: wrap;
