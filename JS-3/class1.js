@@ -130,15 +130,15 @@
 // let b = 90;
 // callMe();
 
-function sum() {
-  let a = 20;
-  let b = 30;
-  function inside() {
-    console.log("Insideeeeeee");
-  }
-}
+// function sum() {
+//   let a = 20;
+//   let b = 30;
+//   function inside() {
+//     console.log("Insideeeeeee");
+//   }
+// }
 
-sum();
+// sum();
 
 // functions
 
@@ -304,3 +304,77 @@ sum();
 // // let func = () => console.log("I am func()");
 
 // callMe();
+
+// function one(a) {
+//   return 2 * a;
+// }
+
+// let one = (a) => 2 * a;
+
+// console.log(one(20));
+
+// let arr = [1, 2, 4, 5, 67, 72, 56];
+
+// arr.forEach(callbackfn);
+
+// function callbackfn(ele) {
+//   ele = ele + 2;
+//   console.log(ele);
+// }
+
+// arr.forEach(() => {
+//   ele = ele + 2;
+//   console.log(ele);
+// });
+
+// let forEach = function (arr) { ===> Internally
+//   for (let i = 0; i < arr.length; i++) {
+//     callbackfn(arr[i]);
+//   }
+// };
+
+// let arr = [67, 72, 56, 78, 45, 34, 23, 56];
+
+// let resArr = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   resArr.push(arr[i] + 10);
+// }
+
+// let resArr = arr.map((ele) => {
+//   return ele + 10;
+// });
+
+// let resArr = arr.map((ele) => ele + 10);
+
+//====================================
+
+// let resArr = arr.map(callbackFn);
+
+// function callbackFn(ele) {
+//   return ele + 10;
+// }
+
+// console.log(resArr);
+
+// let arr = [67, 72, 56, 78, 45, 34, 23, 56];
+// let filteredArr = arr.filter((ele) => ele >= 70);
+
+// console.log(filteredArr);
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let total = arr.reduce(callbackfn, 5);
+
+// function callbackfn(accumulator, currentValue, index, array) {
+//   console.log(accumulator + currentValue);
+//   return accumulator + currentValue;
+// }
+
+// console.log(total);
+
+// Questions:
+// 1. Print all the elements of an array using forEach Method
+// 2. Add 10 to all the elements of an array using map Method
+// 3. Filter out all the students's marks who has got less than 50 in the exam
+// 4. Find out the average number of that class using reduce Method.
