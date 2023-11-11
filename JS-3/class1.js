@@ -377,4 +377,89 @@
 // 1. Print all the elements of an array using forEach Method
 // 2. Add 10 to all the elements of an array using map Method
 // 3. Filter out all the students's marks who has got less than 50 in the exam
-// 4. Find out the average number of that class using reduce Method.
+// 4. Find out the average number of that class using reduce Method
+
+//This keyword in Javascript (Date = 11/11/2023)
+//===============================================
+
+// console.log(window);
+
+// console.log(this);
+
+// let obj = {
+//   a: 1,
+//   b: false,
+//   c: function () {
+//     console.log(this); //#200
+//   },
+//   d: {
+//     name: "Sauvik",
+//   },
+//   f: function () {
+
+//   },
+// };
+
+// console.log(this);
+
+// obj.c();
+
+// console.log(this);
+
+// let obj = {
+//   a: 1,
+//   b: false,
+//   c: function () {
+//     console.log(this);
+//   },
+//   d: {
+//     test: function () {
+//       console.log(this);
+//     },
+//     test1: 10,
+//     test2: true,
+//     test3: {
+//       one: "Hello",
+//       two: "World",
+//       three: function () {
+//         console.log(this);
+//       },
+//     },
+//   },
+// };
+
+// obj.c();
+// obj.d.test();
+//#200.#400.test()
+
+// obj.d.test3.three();
+//#200.#400.#600.three()
+
+// var aaaaa = {
+//     a: 1,
+//     b: false,
+//     c: function () {
+//       console.log(this);
+//     },
+//     d: {
+//       test: 10,
+//       test1: true,
+//       test3: () => {
+//         console.log(this);
+//       },
+//     },
+//   };
+
+//   aaaaa.c(); //obj
+//   aaaaa.d.test3(); //window
+
+// var aaaaaa = 10;
+
+// function aaaaaaa() {
+//   // console.log(window);
+//   console.log(this === window);
+// }
+
+// aaaaaaa();
+
+// // console.log(window);
