@@ -257,4 +257,13 @@
 
 // DOM Manipulation
 
-console.log(window);
+// console.log(window);
+
+//1. Getting the access of the element
+
+//1. getElementById()
+//2. getElementsByTagName()
+// 3. getElementsByClass()
+
+let para = document.getElementById("para");
+console.log(para);
