@@ -265,5 +265,19 @@
 //2. getElementsByTagName()
 // 3. getElementsByClass()
 
-let para = document.getElementById("para");
-console.log(para);
+// let para = document.getElementById("para");
+// console.log(para);
+
+fetch("https://api.github.com/users/sauvikchatterjee07")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
